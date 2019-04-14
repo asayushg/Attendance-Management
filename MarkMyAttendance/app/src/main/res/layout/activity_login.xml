@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/output1"
+    android:paddingTop="20dp"
+    tools:context=".LoginActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_alignParentBottom="true"
+                android:alpha="0.5"
+                android:background="@android:color/darker_gray"
+                android:foreground="@android:color/darker_gray"
+                app:srcCompat="@drawable/output2"
+                android:contentDescription="@string/todo" tools:targetApi="m"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/get_started"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/output11"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="35dp"
+                android:paddingEnd="10dp"
+                />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/output11"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textWebPassword"
+                android:paddingStart="35dp"
+                android:paddingEnd="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="95dp"
+                app:srcCompat="@drawable/output18"
+                android:contentDescription="@string/todo" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="157dp"
+                app:srcCompat="@drawable/output19"
+                android:contentDescription="@string/todo" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="75dp"
+                android:background="@android:color/holo_blue_bright"
+                android:onClick="LogIn"
+                android:text="@string/login" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="177dp"
+                android:layout_height="131dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/registerbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:onClick="RegisterAct"
+                android:text="Create New Account" />
+
+        </RelativeLayout>
+    </ScrollView>
+</android.widget.RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mark My Attendance</string>
+    <string name="con">I accept the terms and conditions</string>
+    <string name="det">Just a few details to get you started</string>
+    <string name="todo">TODO</string>
+    <string name="get_started">Get Started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="code">New Code!</string>
+    <string name="button">Generate Code</string>
+    <string name="subject">Subject:</string>
+    <string name="timer">timer</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="enter_code_here">Enter code here</string>
+    <string name="show_attendance">Show Attendance</string>
+</resources>

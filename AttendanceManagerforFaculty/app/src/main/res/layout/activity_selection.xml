@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pickerui="http://schemas.android.com/apk/res-auto"
+    tools:context=".SelectionActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/output1"/>
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_slide"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="New Code"
+        android:textColor="@color/background_picker"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@color/background_picker"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bt_slide"
+        android:text="@string/slide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/sbjView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/code"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/background_picker"
+        android:textSize="50sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="GenerateCode"
+        android:text="Generate Code"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored" />
+
+    <com.dpizarro.uipicker.library.picker.PickerUI
+        android:id="@+id/picker_ui_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        pickerui:autoDismiss="true"
+        pickerui:backgroundColor="#4cffa5"
+        pickerui:blur="true"
+        pickerui:blur_FilterColor="#ff5e48"
+        pickerui:blur_downScaleFactor="@integer/blur_downscale_min"
+        pickerui:blur_radius="@integer/blur_radius_min"
+        pickerui:blur_use_renderscript="true"
+        pickerui:itemsClickables="true"
+        pickerui:linesCenterColor="#3941ff"
+        pickerui:textCenterColor="#000000"
+        pickerui:textNoCenterColor="#737373">
+
+    </com.dpizarro.uipicker.library.picker.PickerUI>
+
+
+
+</android.widget.RelativeLayout>

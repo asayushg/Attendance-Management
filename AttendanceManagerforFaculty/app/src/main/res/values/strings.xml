@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Attendance Manager for Faculty</string>
+    <string name="todo">TODO</string>
+    <string name="get_started">Get Started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="code">New Code!</string>
+    <string name="button">Generate Code</string>
+    <string name="subject">Subject:</string>
+    <string name="timer">timer</string>
+    <string name="slide_up">Slide up</string>
+    <string name="slide">Select Subject</string>
+    <string name="slide_down">Slide down</string>
+    <string name="random_color">Random color</string>
+    <string name="use_blur">Use blur</string>
+    <string name="items_clickables">Items clickables</string>
+    <string name="auto_dismiss">Auto dismiss</string>
+    <string name="blur_radius">Blur Radius</string>
+    <string name="blur_downscale">Blur Downscale</string>
+
+</resources>

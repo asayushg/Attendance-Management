@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "692350900802",
+    "firebase_url": "https://attendance-f6bc6.firebaseio.com",
+    "project_id": "attendance-f6bc6",
+    "storage_bucket": "attendance-f6bc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692350900802:android:44abe0bd8e05870d",
+        "android_client_info": {
+          "package_name": "saini.ayush.attendancemanagerforfaculty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkERzr6Q_102IUiWB_HdqXAn9qbdgvVdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692350900802-n82v84j2v8cdm7beobedjnjfsvgjevea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

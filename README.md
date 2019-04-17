@@ -1,4 +1,4 @@
-`Attendance management` System is a software developed for daily student attendance in schools, collagesand institutes. It is maintained on the daily basis of their attendance.The purpose of developing attendancemanagement system is to computerized the tradition way of taking attendance. Another purpose for developing this software is to generate the report automatically at the end of the session or in the between of the session.
+`Attendance management` System is a software developed for daily student attendance in schools, collages and institutes. It is maintained on the daily basis of their attendance.The purpose of developing attendance management system is to computerized the tradition way of taking attendance. Another purpose for developing this software is to generate the report automatically at the end of the session or in the between of the session.
 
 This project consist of two android applications- `Attendance Manager For Faculty` and `Mark My Attendance`.
 The `Attendance Manager For Faculty` application will be provided to faculties.Faculties has to login in application with their respective email and password.

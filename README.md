@@ -1,5 +1,7 @@
 `Overview`
+
 `Attendance management` System is a software developed for daily student attendance in schools, colleges and institutes. It is maintained on the daily basis of their attendance.It facilitates to access the attendance information of a particular student in a particular class. Each staff will be given with a separate username and password based on the subject they handle. An accurate report based on the student attendance is generated here. Authorised person can generate code which is valid only for 25 seconds and students are required to enter the same code to mark their attendance.
+
 `Goal`
 The purpose of developing attendance management system is to computerized the tradition way of taking attendance. Another purpose for developing this software is to generate the report automatically at the end of the session or in the between of the session and to avoid proxies.
 
